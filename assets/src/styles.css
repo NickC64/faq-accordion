@@ -2,16 +2,10 @@
 @font-face {
     font-family: 'WorkSans';
     src: url('../fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: normal bold;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'WorkSans';
-    src: url('../fonts/static/WorkSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
 
 @media (min-width: 375px) {
     body {
@@ -61,12 +55,17 @@ body {
     font-size: 0.8em;
     margin-top: 10px;
 }
+
 .question {
     display: flex;
     cursor: pointer;
     font-weight: bold;
     align-items: center;
+}
 
+.question:hover {
+
+    color: #cb00cb;
 }
 
 .question .toggle-icon {
